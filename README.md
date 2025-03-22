@@ -47,7 +47,7 @@ socks4://92.222.153.172:4145
 
 ---
 
-## 2. Proxy Extractor (proxy_filter.py)
+## 2. Proxy Extractor (proxy_cleaner.py)
 
 ### Text Filter for IP:PORT Patterns
 
@@ -65,7 +65,7 @@ socks4://92.222.153.172:4145
 
 #### Usage
 ```bash
-python proxy_filter.py input.txt cleaned_proxies.txt
+python proxy_cleaner.py input.txt cleaned_proxies.txt
 ```
 
 **Arguments**:
@@ -93,7 +93,7 @@ Valid examples:
 
 1. **Extract proxies** from raw data:
 ```bash
-python proxy_filter.py raw_data.txt potential_proxies.txt
+python proxy_cleaner.py raw_data.txt potential_proxies.txt
 ```
 
 2. **Check and classify** working proxies:
